@@ -1,0 +1,82 @@
+body {
+    background-color: #DDD0C8;
+    font-family: Papyrus, fantasy;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Make sure the body takes up the full height of the viewport */
+    margin: 0;
+    text-align: center;
+}
+
+
+h1 {
+    color: #323232;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h5, p, h2 {
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+nav a {
+    font-family: 'Lucida Console', monospace;
+    text-decoration: none;
+    margin: 0 30px; /* Adds space between the links (left and right) */
+    font-weight: bold;
+    color: #99775C;
+    font-size: 22px;
+}
+
+
+form {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+ul#taskList {
+    list-style-type: circle;
+    padding-left: 0;
+    margin-top: 20px;
+    max-width: 500px;
+    text-align: left;
+}
+
+ul#taskList li {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+button,
+input[type="submit"] {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 15px auto;
+    background-color: #99775C;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #EAE7DD;
+    color: #444;
+}
